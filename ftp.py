@@ -12,7 +12,7 @@ def main():
     # Crea un autorizador dummy para gestionar los usuarios y sus contraseñas
     authorizer = DummyAuthorizer()
 
-    # Agrega un usuario con nombre 'admin' y contraseña 'password' con todos los permisos
+    # Agrega un usuario y contraseña con todos los permisos
     authorizer.add_user("admin", "password", "C:/Users/tu-usuario/Desktop/", perm="elradfmw")
 
     # Crea el manejador del servidor FTP
